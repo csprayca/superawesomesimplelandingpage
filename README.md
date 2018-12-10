@@ -2,10 +2,10 @@ Template from https://gist.github.com/jxson/1784669
 
 ## Synopsis
 
-[![Build Status](https://travis-ci.org/csprayca/superawesomebase.svg?branch=master)](https://travis-ci.org/csprayca/superawesomebase)
-[![Coverage Status](https://coveralls.io/repos/github/csprayca/superawesomebase/badge.svg?branch=master)](https://coveralls.io/github/csprayca/superawesomebase?branch=master)
-[![codecov](https://codecov.io/gh/csprayca/superawesomebase/branch/master/graph/badge.svg)](https://codecov.io/gh/csprayca/superawesomebase)
-[![Greenkeeper badge](https://badges.greenkeeper.io/csprayca/superawesomebase.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/csprayca/superawesomesimplelandingpage.svg?branch=master)](https://travis-ci.org/csprayca/superawesomesimplelandingpage)
+[![Coverage Status](https://coveralls.io/repos/github/csprayca/superawesomesimplelandingpage/badge.svg?branch=master)](https://coveralls.io/github/csprayca/superawesomesimplelandingpage?branch=master)
+[![codecov](https://codecov.io/gh/csprayca/superawesomesimplelandingpage/branch/master/graph/badge.svg)](https://codecov.io/gh/csprayca/superawesomesimplelandingpage)
+[![Greenkeeper badge](https://badges.greenkeeper.io/csprayca/superawesomesimplelandingpage.svg)](https://greenkeeper.io/)
 
 At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
 
