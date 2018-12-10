@@ -1,0 +1,66 @@
+{
+  "name": "superawesomesimplelandingpage",
+  "version": "1.0.0",
+  "description": "Super awesome base project ui for the super awesome base project nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run jest",
+    "test:coveralls": "cat ./coverage/lcov.info | coveralls",
+    "test:codecov": "cat ./coverage/lcon.info | codecov",
+    "test:all": "npm run test && npm run test:coveralls && npm run test:codecov",
+    "test:full:dev": "npm run lint && npm run test",
+    "test:full": "npm run lint && npm run test:all",
+    "jest": "jest --config jest.config.js",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src",
+    "jsdoc": "jsdoc -c jsdoc.config.js",
+    "semantic-release": "semantic-release",
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csprayca/superawesomesimplelandingpage.git"
+  },
+  "keywords": [
+    "npm",
+    "base project",
+    "simple project",
+    "starter kit"
+  ],
+  "author": "Alex Kluew <info@getaclue.me> (https://getaclue.me)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/csprayca/superawesomesimplelandingpage/issues"
+  },
+  "homepage": "https://github.com/csprayca/superawesomesimplelandingpage#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-do-expressions": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@semantic-release/changelog": "^3.0.1",
+    "@semantic-release/git": "^7.0.5",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "codecov": "^3.1.0",
+    "commitizen": "^3.0.5",
+    "coveralls": "^3.0.2",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "jsdoc": "^3.5.5",
+    "semantic-release": "^15.12.4",
+    "standard": "^12.0.1",
+    "supertest": "^3.3.0"
+  }
+}
