@@ -1,3 +1,5 @@
 'use strict';
 
-exports = module.exports = () => ({ hello: 'world' });
+const _function = () => ({ hello: 'world' });
+
+exports = module.exports = _function;

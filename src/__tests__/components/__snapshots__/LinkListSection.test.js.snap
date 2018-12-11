@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkListSection component given expected input it renders the list as expected 1`] = `
+<section
+  className="jsx-79328968"
+>
+  <ul
+    className="jsx-79328968"
+  >
+    <li
+      className="jsx-2036342278"
+    >
+      <a
+        className="jsx-2004290176"
+        href="/latestvideo"
+        role="button"
+        title="Watch my latest video"
+      >
+        Watch my latest video
+      </a>
+    </li>
+    <li
+      className="jsx-2036342278"
+    >
+      <a
+        className="jsx-2004290176"
+        href="/instagram"
+        role="button"
+        title="Follow behind the scenes on instagram"
+      >
+        Follow behind the scenes on instagram
+      </a>
+    </li>
+    <li
+      className="jsx-2036342278"
+    >
+      <a
+        className="jsx-2004290176"
+        href="/etsy"
+        role="button"
+        title="Checkout my etsy store for one of a kind items"
+      >
+        Checkout my etsy store for one of a kind items
+      </a>
+    </li>
+    <li
+      className="jsx-2036342278"
+    >
+      <a
+        className="jsx-2004290176"
+        href="/recentlivestream"
+        role="button"
+        title="Recent Livestream"
+      >
+        Recent Livestream
+      </a>
+    </li>
+    <li
+      className="jsx-2036342278"
+    >
+      <a
+        className="jsx-2004290176"
+        href="/youtube"
+        role="button"
+        title="Youtube"
+      >
+        Youtube
+      </a>
+    </li>
+  </ul>
+</section>
+`;
+
+exports[`LinkListSection component given no input, default settings it works as expected 1`] = `null`;

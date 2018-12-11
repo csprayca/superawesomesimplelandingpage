@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageInfoSection component given default settings works as expected 1`] = `
+<section
+  className="jsx-636152487"
+>
+  <h1
+    className="jsx-636152487"
+  >
+    Last minute laura
+  </h1>
+  <h2
+    className="jsx-636152487"
+  >
+    Artist. Maker. Creator.
+  </h2>
+</section>
+`;
+
+exports[`PageInfoSection component given proper input works as expected 1`] = `
+<section
+  className="jsx-636152487"
+>
+  <h1
+    className="jsx-636152487"
+  >
+    Alex Kluew
+  </h1>
+  <h2
+    className="jsx-636152487"
+  >
+    Make all the things!
+  </h2>
+</section>
+`;

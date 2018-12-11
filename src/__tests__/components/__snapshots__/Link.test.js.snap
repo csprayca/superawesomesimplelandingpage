@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link Component given missing input it renders with no target link when a fromURL is missing 1`] = `
+<a
+  className="jsx-2004290176"
+  role="button"
+  title="Youtube"
+>
+  Youtube
+</a>
+`;
+
+exports[`Link Component given missing input it renders with no title when a title is missing 1`] = `
+<a
+  className="jsx-2004290176"
+  role="button"
+/>
+`;
+
+exports[`Link Component given valid input works as expected 1`] = `
+<a
+  className="jsx-2004290176"
+  href="/youtube"
+  role="button"
+  title="Youtube"
+>
+  Youtube
+</a>
+`;
