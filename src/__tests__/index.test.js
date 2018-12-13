@@ -5,6 +5,14 @@ const index = require('../index');
 
 describe('base project', () => {
   test('should have tests', () => {
-    expect(index()).toEqual({ hello: 'world' });
+    const landingPage = index();
+
+    expect(landingPage.FooterSection).toBeInstanceOf(Function);
+    expect(landingPage.Link).toBeInstanceOf(Function);
+    expect(landingPage.ListLiList).toBeInstanceOf(Function);
+    expect(landingPage.LinkListSection).toBeInstanceOf(Function);
+    expect(landingPage.HeartImg).toBeInstanceOf(Function);
+    expect(landingPage.FooterSection).toBeInstanceOf(Function);
+    expect(landingPage.defaultLinks).toBeInstanceOf(Array);
   });
 });
