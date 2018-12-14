@@ -15,7 +15,8 @@
     "lint:fix": "eslint --fix src",
     "jsdoc": "jsdoc -c jsdoc.config.js",
     "semantic-release": "semantic-release",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "example:dev": "nodemon example/server.js -w example -w src"
   },
   "config": {
     "commitizen": {
@@ -65,9 +66,12 @@
     "express": "^4.16.4",
     "jest": "^23.6.0",
     "jsdoc": "^3.5.5",
+    "next-plugin-transpile-modules": "^1.0.0",
+    "nodemon": "^1.18.8",
     "react-test-renderer": "^16.6.3",
     "semantic-release": "^15.12.4",
     "standard": "^12.0.1",
+    "superawesomeredirector": "https://github.com/csprayca/superawesomeredirector.git",
     "supertest": "^3.3.0"
   },
   "dependencies": {

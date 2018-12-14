@@ -2,15 +2,15 @@
 
 exports[`PageInfoSection component given default settings works as expected 1`] = `
 <section
-  className="jsx-636152487"
+  className="jsx-3411386411"
 >
   <h1
-    className="jsx-636152487"
+    className="jsx-3411386411"
   >
     Last minute laura
   </h1>
   <h2
-    className="jsx-636152487"
+    className="jsx-3411386411"
   >
     Artist. Maker. Creator.
   </h2>
@@ -19,15 +19,15 @@ exports[`PageInfoSection component given default settings works as expected 1`] 
 
 exports[`PageInfoSection component given proper input works as expected 1`] = `
 <section
-  className="jsx-636152487"
+  className="jsx-3411386411"
 >
   <h1
-    className="jsx-636152487"
+    className="jsx-3411386411"
   >
     Alex Kluew
   </h1>
   <h2
-    className="jsx-636152487"
+    className="jsx-3411386411"
   >
     Make all the things!
   </h2>

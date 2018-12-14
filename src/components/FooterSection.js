@@ -1,11 +1,9 @@
-'use strict';
-
-const React = require('react');
-const HeartImg = require('./HeartImg');
+import React, { Fragment } from 'react';
+import HeartImg from '../components/HeartImg';
 
 const FooterSection = () => {
   return (
-    <React.Fragment>
+    <Fragment>
       <footer>
         Made with <HeartImg /> in Toronto
       </footer>
@@ -18,8 +16,8 @@ const FooterSection = () => {
           }
         `}
       </style>
-    </React.Fragment>
+    </Fragment>
   );
 };
 
-exports = module.exports = FooterSection;
+export default FooterSection;

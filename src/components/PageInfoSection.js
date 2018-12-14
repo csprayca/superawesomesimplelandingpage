@@ -1,13 +1,11 @@
-'use strict';
-
-const React = require('react');
+import React, { Fragment } from 'react';
 
 const PageInfoSection = ({
   title = 'Last minute laura',
   subTitle = 'Artist. Maker. Creator.'
 }) => {
   return (
-    <React.Fragment>
+    <Fragment>
       <section>
         <h1>{title}</h1>
         <h2>{subTitle}</h2>
@@ -15,6 +13,10 @@ const PageInfoSection = ({
       <style jsx>{`
         section {
           padding-left: 1em;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
         }
         h1 {
           text-transform: uppercase;
@@ -23,8 +25,8 @@ const PageInfoSection = ({
           font-weight: lighter;
         }
       `}</style>
-    </React.Fragment>
+    </Fragment>
   );
 };
 
-exports = module.exports = PageInfoSection;
+export default PageInfoSection;

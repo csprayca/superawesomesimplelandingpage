@@ -1,7 +1,5 @@
-'use strict';
-
-const React = require('react');
-const Link = require('./Link');
+import React, { Fragment } from 'react';
+import Link from '../components/Link';
 
 const ListLiList = ({ list = [] }) => {
   if (list && list.length === 0) {
@@ -9,7 +7,7 @@ const ListLiList = ({ list = [] }) => {
   }
 
   return (
-    <React.Fragment>
+    <Fragment>
       {list.map((item, index) => (
         <li key={index}>
           <Link title={item.title} fromURL={item.fromURL} />
@@ -22,8 +20,8 @@ const ListLiList = ({ list = [] }) => {
           padding-bottom: 1em;
         }
       `}</style>
-    </React.Fragment>
+    </Fragment>
   );
 };
 
-exports = module.exports = ListLiList;
+export default ListLiList;

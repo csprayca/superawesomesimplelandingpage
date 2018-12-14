@@ -1,14 +1,12 @@
-'use strict';
-
 /**
  * Icon from svg icon from http://www.evericons.com/
  */
 
-const React = require('react');
+import React, { Fragment } from 'react';
 
 const HeartImg = () => {
   return (
-    <React.Fragment>
+    <Fragment>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
@@ -40,8 +38,8 @@ const HeartImg = () => {
           }
         `}
       </style>
-    </React.Fragment>
+    </Fragment>
   );
 };
 
-exports = module.exports = HeartImg;
+export default HeartImg;

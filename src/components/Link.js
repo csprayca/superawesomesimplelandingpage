@@ -1,6 +1,4 @@
-'use strict';
-
-const React = require('react');
+import React, { Fragment } from 'react';
 
 const Link = ({ title, fromURL }) => {
   // if (title && title.length === 0) {
@@ -11,7 +9,7 @@ const Link = ({ title, fromURL }) => {
   // }
 
   return (
-    <React.Fragment>
+    <Fragment>
       <a href={fromURL} role="button" title={title}>
         {title}
       </a>
@@ -28,8 +26,8 @@ const Link = ({ title, fromURL }) => {
           text-align: center;
         }
       `}</style>
-    </React.Fragment>
+    </Fragment>
   );
 };
 
-exports = module.exports = Link;
+export default Link;

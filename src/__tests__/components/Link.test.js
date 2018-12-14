@@ -1,9 +1,8 @@
 /* eslint-env jest */
-'use strict';
 
-const React = require('react');
-const renderer = require('react-test-renderer');
-const Link = require('../../components/Link');
+import React from 'react';
+import renderer from 'react-test-renderer';
+import Link from '../../components/Link';
 
 const expected = {
   title: 'Youtube',

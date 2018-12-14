@@ -1,9 +1,8 @@
 /* eslint-env jest */
-'use strict';
 
-const React = require('react');
-const renderer = require('react-test-renderer');
-const PageInfoSection = require('../../components/PageInfoSection');
+import React from 'react';
+import renderer from 'react-test-renderer';
+import PageInfoSection from '../../components/PageInfoSection';
 
 describe('PageInfoSection component', () => {
   describe('given default settings', () => {

@@ -1,9 +1,7 @@
 /* eslint-env jest */
-'use strict';
-
-const React = require('react');
-const renderer = require('react-test-renderer');
-const FooterSection = require('../../components/FooterSection');
+import React from 'react';
+import renderer from 'react-test-renderer';
+import FooterSection from '../../components/FooterSection';
 
 describe('FooterSection component', () => {
   describe('given default setup', () => {

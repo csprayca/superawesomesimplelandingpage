@@ -1,9 +1,7 @@
 /* eslint-env jest */
-'use strict';
-
-const React = require('react');
-const renderer = require('react-test-renderer');
-const ListLiList = require('../../components/ListLiList');
+import React from 'react';
+import renderer from 'react-test-renderer';
+import ListLiList from '../../components/ListLiList';
 
 const links = [
   {

@@ -1,41 +1,25 @@
-'use strict';
+/**
+ * I could have exported the primary SimplePage component but I wanted to leave you with that choice. Or at least that is the plan for now.
+ *
+ * References:
+ * - https://hacks.mozilla.org/2015/08/es6-in-depth-modules/
+ * - https://medium.com/@dlmanning/interoperability-between-es-modules-and-common-js-is-a-mistake-fb9ac71d96fd
+ * - https://github.com/zeit/next.js/blob/c44dab63ff835b772a8e3fea1b8a217e77e1e7c2/examples/with-yarn-workspaces/packages/web-app/next.config.js
+ * - https://github.com/martpie/next-plugin-transpile-modules#readme
+ */
 
-const PageInfoSection = require('./components/PageInfoSection');
-const Link = require('./components/Link');
-const ListLiList = require('./components/ListLiList');
-const LinkListSection = require('./components/LinkListSection');
-const HeartImg = require('./components/HeartImg');
-const FooterSection = require('./components/FooterSection');
+import PageInfoSection from './components/PageInfoSection';
+import Link from './components/Link';
+import ListLiList from './components/ListLiList';
+import LinkListSection from './components/LinkListSection';
+import HeartImg from './components/HeartImg';
+import FooterSection from './components/FooterSection';
+import SimplePage from './components/SimplePage';
 
-const links = [
-  {
-    title: 'Watch my latest video',
-    toURL: 'https://youtu.be/bwESQ8wOJ5Y',
-    fromURL: '/latestvideo'
-  },
-  {
-    title: 'Follow behind the scenes on instagram',
-    toURL: 'https://www.instagram.com/lastminutelaura.ca',
-    fromURL: '/instagram'
-  },
-  {
-    title: 'Checkout my etsy store for one of a kind items',
-    toURL: 'https://www.etsy.com/ca/shop/LastMinuteLaura',
-    fromURL: '/etsy'
-  },
-  {
-    title: 'Recent Livestream',
-    toURL: 'https://youtu.be/ZaSOYhQUQSw',
-    fromURL: '/recentlivestream'
-  },
-  {
-    title: 'Youtube',
-    toURL: 'https://www.youtube.com/channel/UCB5mFx3KjuOuMZoXDLSUvSg',
-    fromURL: '/youtube'
-  }
-];
+import links from './defaultData';
 
-exports = module.exports = () => ({
+export default {
+  SimplePage: SimplePage,
   PageInfoSection: PageInfoSection,
   Link: Link,
   ListLiList: ListLiList,
@@ -43,4 +27,4 @@ exports = module.exports = () => ({
   HeartImg: HeartImg,
   FooterSection: FooterSection,
   defaultLinks: links
-});
+};

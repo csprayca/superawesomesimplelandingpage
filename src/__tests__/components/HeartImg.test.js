@@ -1,9 +1,7 @@
 /* eslint-env jest */
-'use strict';
-
-const React = require('react');
-const renderer = require('react-test-renderer');
-const HeartImg = require('../../components/HeartImg');
+import React from 'react';
+import renderer from 'react-test-renderer';
+import HeartImg from '../../components/HeartImg';
 
 describe('HeartImg component', () => {
   describe('given default setup', () => {
