@@ -1,5 +1,5 @@
 /* eslint-env jest */
-import React from 'React';
+import React from 'react';
 import renderer from 'react-test-renderer';
 import SimplePage from '../../components/SimplePage';
 
