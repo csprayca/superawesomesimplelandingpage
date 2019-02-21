@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/csprayca/superawesomesimplelandingpage/compare/v2.0.0...v2.0.1) (2019-02-21)
+
+
+### Bug Fixes
+
+* **package:** update next to version 8.0.0 ([45ddf45](https://github.com/csprayca/superawesomesimplelandingpage/commit/45ddf45))
+
 # [2.0.0](https://github.com/csprayca/superawesomesimplelandingpage/compare/v1.0.0...v2.0.0) (2018-12-15)
 
 
