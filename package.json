@@ -75,7 +75,7 @@
     "supertest": "^3.3.0"
   },
   "dependencies": {
-    "next": "^8.0.0",
+    "next": "^9.4.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
   }
